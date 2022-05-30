@@ -1,0 +1,104 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: yellow;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 80px;
+    margin-bottom: 40px;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(243, 243, 83);
+    padding-right: 30px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+#navbar>div>p>a{
+    text-decoration: none;
+}
+#menu, #bucket{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    width: 96%;
+    margin: auto;
+    gap: 20px;
+}
+
+.box{
+    text-align: center;
+    background-color: rgb(243, 243, 83);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 20px;
+    line-height: 13px;
+}
+.box:hover{
+    background-color: yellow;
+}
+.img{
+    width: 100%;
+    height: 270px;
+}
+.name{
+    font-size: 25px;
+}
+
+#add_to_bucket{
+    border: 1px solid transparent;
+    font-size: 18px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: turquoise;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#add_to_bucket:hover{
+    background-color: blue;
+    color: white;
+}
+#remove_coffee{
+    color: white;
+    background-color: red;
+    border: 1px solid transparent;
+    font-size: 18px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#remove_coffee:hover{
+    border: 1px solid red;
+    color: red;
+    background-color: pink;
+}
+#coffee_count{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+#total-div{
+    text-align: center;
+    font-size: 30px;
+}
+#confirm_checkout{
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 300px;
+    border: none;
+    background-color: turquoise;
+    padding: 10px;
+}
+#confirm_checkout>a{
+    text-decoration: none;
+    color: purple;
+}

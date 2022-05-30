@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style/index.css">
+  </head>
+
+  <body>
+    <div id="navbar">
+      <!--Add navbar divs here-->
+      <div><p>Login</p></div>
+      <div><p>SignUp</p></div>
+      <div>
+        <p><a href="index.html">Items</a></p>
+      </div>
+      <!-- Link to bucket.html -->
+      <div>
+        <p><a href="bucket.html">Bucket</a></p>
+      </div>
+    </div>
+
+
+    <div id="order-form">
+      <!--Add your form html element here-->
+      <!--In form, give #name,#number and #address as HTML id's to relevant input elements -->
+      <!-- confirm button with id "confirm" -->
+      <!-- <form id="form"> -->
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="number" id="number">
+        <input type="text" id="address">
+        <button id="confirm" onclick="confirmFun()">Confirm</button>
+      <!-- </form> -->
+    </div>
+  </body>
+  <script src="/scripts/checkout.js"></script>
+</html>
